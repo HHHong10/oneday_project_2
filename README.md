@@ -1,3 +1,5 @@
+![header](https://capsule-render.vercel.app/api?type=waving&color=75BDE0&height=300&section=header&text=EDA%20Project&fontSize=65)
+
 # oneday_project_2
 ## 프로젝트 소개
 ### 테러 특성 및 양상 분석
@@ -35,14 +37,22 @@ seaborn - countplot 활용 시각화
 
 
 ### 2. 테러 발생 상위 10개국 파악
-pandas - bar 활용 시각화
+matplotlib.pyplot - bar 활용 시각화
 
 <img width="1058" alt="Screen Shot 2021-11-16 at 1 33 57 PM" src="https://user-images.githubusercontent.com/48639017/141922963-2049bd2c-de17-423a-980f-20e3672a42e6.png">
 
-- 이라크
+- 이라크, 파키탄, 아프니탄: 상위 3개 국가
+- 💡 중동, 남아시아, 남아메리카, 서유럽에서 테러가 많이 발생
+
+### 3. 상위 10개국 사망자 및 부상자 수 파악
 
 
 
 
 
+
+
+
+
+![header](https://capsule-render.vercel.app/api?type=waving&color=75BDE0&height=200&section=footer&fontSize=72)
 
