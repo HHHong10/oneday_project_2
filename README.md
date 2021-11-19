@@ -9,18 +9,22 @@
 > 테러 발생 상위 10개 국가 데이터프레임   
 > 특정 8개 지역의 공격 형태, 대상 데이터프레임
 
+</br>
+
 ## 프로젝트 목표
 - 전세계 테러 공격 연간 추이 파악
 - 과거 테러 공격의 특이점 및 이슈 파악
 - 특정 8개 지역별 특성 파악
 - 테러 감소를 위한 경각심 고취 시각화
 
+</br>
+
 ## 프로젝트 내용
-#### terror DataFrame   
-> 전체 column 중 테러 발생시점, 공격 형태, 국가, 지역, 부상자 수 , 사망자 수, 테러 발생 지역의 위치정보, 공격대상, 동기 추출
 
 ### 1. 전체 연도별 테러 발생 횟수 집계
-seaborn - countplot 활용 시각화
+#### terror DataFrame   
+> 전체 column 중 테러 발생시점, 공격 형태, 국가, 지역, 부상자 수 , 사망자 수, 테러 발생 지역의 위치정보, 공격대상, 동기 추출
+##### seaborn - countplot 활용 시각화
 
 <img width="1075" alt="Screen Shot 2021-11-16 at 1 33 39 PM" src="https://user-images.githubusercontent.com/48639017/141921553-094ed01a-c86f-4c57-9419-53b32e37b836.png">
 
@@ -34,11 +38,10 @@ seaborn - countplot 활용 시각화
 - 💡 국가 간 갈등 심화로 인한 테러 증가 추측    
 
 
+### 2. 테러 발생 상위 10개국 파악
 #### terror_top DataFrame
 > 국가별 그룹화 후 전체 기간 테러 발생 횟수, 사망자, 부상자, 사상자(사망+부상자) 컬럼 추가 후 발생 횟수로 내림차순 해 상위 10개국 추출
-
-### 2. 테러 발생 상위 10개국 파악
-matplotlib.pyplot - bar 활용 시각화
+##### matplotlib.pyplot - bar 활용 시각화
 
 <img width="1058" alt="Screen Shot 2021-11-16 at 1 33 57 PM" src="https://user-images.githubusercontent.com/48639017/141922963-2049bd2c-de17-423a-980f-20e3672a42e6.png">
 
@@ -46,7 +49,7 @@ matplotlib.pyplot - bar 활용 시각화
 - 💡 중동, 남아시아, 남아메리카, 서유럽에서 테러가 많이 발생
 
 ### 3. 상위 10개국 사망자 및 부상자 수 파악
-pandas.DataFrame.plot / seaborn - barplot 활용 시각화
+##### pandas.DataFrame.plot / seaborn - barplot 활용 시각화
 
 <img width="884" alt="Screen Shot 2021-11-19 at 10 09 34 AM" src="https://user-images.githubusercontent.com/48639017/142524086-65169609-c78c-4b96-9cbe-8d6d8b774aff.png">   
 
@@ -57,12 +60,11 @@ pandas.DataFrame.plot / seaborn - barplot 활용 시각화
     - 💡 2007년 폭탄 테러 시도 실패 사례 등의 다수의 테러 실패 및 사전 검거
 - Iraq의 경우 테러 발생 횟수의 6배 수치에 달하는 부상자 발생
     - 💡 Iraq에서 발생한 테러 중 쇼핑센터, 시장에서 폭탄 테러 사례로 한 번에 많은 사상자 수 발생
-  
 
-#### terror_country DataFrame
-> 중동&북아프리카, 남아시아, 남아메리카, 서유럽, 남동아시아, 동유럽, 북아메리카, 동아시아 지역별 공격 형태, 사상자 수
 
 ### 4. 특정 8개 지역 특성 파악
+#### terror_country DataFrame
+> 중동&북아프리카, 남아시아, 남아메리카, 서유럽, 남동아시아, 동유럽, 북아메리카, 동아시아 지역별 공격 형태, 사상자 수
 #### 지역별 테러 공격 형태 시각화
 
 <img width="812" alt="Screen Shot 2021-11-19 at 10 28 13 AM" src="https://user-images.githubusercontent.com/48639017/142537110-bf460a63-7320-4c3a-9e5a-ea61581dd4e9.png">
