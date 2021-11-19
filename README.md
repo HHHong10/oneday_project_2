@@ -125,6 +125,14 @@
 
 - 💡 시민, 군사, 경찰 대상 테러의 증가
 
+### 7. 테러의 위험성
+![__results___17_0](https://user-images.githubusercontent.com/48639017/142570680-0e890b44-72d0-4c2f-8ec8-e553985e9fbf.png)
+
+- 테러는 전세계 곳곳에서 발생하고 있으며 매우 안전하다고 말할 수 있는 곳은 없음
+
+
 </br>
+
 ### 참고
-[최근 국외 뉴테러리즘의 사례분석과 국내 발생가능 유형에 대한 연구](https://www.koreascience.or.kr/article/JAKO201719063370032.pdf) ㄴ
+
+[최근 국외 뉴테러리즘의 사례분석과 국내 발생가능 유형에 대한 연구](https://www.koreascience.or.kr/article/JAKO201719063370032.pdf)
