@@ -89,9 +89,17 @@
 
 ### 5. 특정 8개 지역 특정 기간의 양상
 #### before_count, after_count DataFrame
-> 1. 에서 2012~2014 테러 발생 급증 확인
-> 2011년을 기준으로 과거와 이후의 공격 대상 카운팅
+> 1. 에서 2012~2014 테러 발생 급증 확인   
+> 2011년 기준 과거와 이후의 공격 대상 카운팅
+> 2011년 기준 과거와 이후의 테러 발생 횟수 카운팅  
 
+#### 2011년 기준 지역별 테러 발생 횟수 시각화
+<img width="783" alt="Screen Shot 2021-11-19 at 1 47 07 PM" src="https://user-images.githubusercontent.com/48639017/142566511-5c2875da-1f6b-41b7-8dc9-9487e045a0a1.png">
+
+- South America, Western Europe 지역의 테러 발생 감소
+- Middle East & North Africa, South Asia 지역의 테러 발생 증가
+
+#### 2011년 기준 공격 대상 변화 시각화
 <img width="876" alt="Screen Shot 2021-11-19 at 1 29 10 PM" src="https://user-images.githubusercontent.com/48639017/142565052-b24e7870-f78b-440a-8a34-32f101fae8f5.png">
 
 - Military, Police, Private Citizens & Property 대상 테러는 2011년 이후 증가
