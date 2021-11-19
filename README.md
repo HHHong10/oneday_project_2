@@ -97,7 +97,9 @@
 <img width="783" alt="Screen Shot 2021-11-19 at 1 47 07 PM" src="https://user-images.githubusercontent.com/48639017/142566511-5c2875da-1f6b-41b7-8dc9-9487e045a0a1.png">
 
 - South America, Western Europe 지역의 테러 발생 감소
+    - 💡 세계경제 위기 고조와 테러 발생 증가는 비례하지 않음
 - Middle East & North Africa, South Asia 지역의 테러 발생 증가
+    - 💡 지역 내 세력 다툼으로 테러 증가 추측
 
 #### 2011년 기준 공격 대상 변화 시각화
 <img width="876" alt="Screen Shot 2021-11-19 at 1 29 10 PM" src="https://user-images.githubusercontent.com/48639017/142565052-b24e7870-f78b-440a-8a34-32f101fae8f5.png">
@@ -107,3 +109,22 @@
 - Tourists, Airports & Aircraft, Gorvernment(General) 대상 테러는 2011년 이후 감소
     - 💡 2010년 9.11 테러 발생의 영향 있을 것으로 추측
 
+### 6. 특정 7개 지역 1970~2010년대 특성 분석
+#### period_region DataFrame
+> 앞선 8개 지역 중 7개 지역을 시대별 구분하기 위한 데이터프레임    
+> 해당 데이터 10년 단위로 구분
+
+#### 시대별 지역 테러 발생 시각화
+<img width="783" alt="Screen Shot 2021-11-19 at 2 12 28 PM" src="https://user-images.githubusercontent.com/48639017/142568690-36ad940c-807c-4756-bc96-28a9ad1d79fe.png">
+
+- 시간의 흐름에 따라 테러 발생 증가
+    - Western Europe 줄어듦
+
+#### 시대별 지역 테러 발생 시각화
+<img width="783" alt="Screen Shot 2021-11-19 at 2 23 33 PM" src="https://user-images.githubusercontent.com/48639017/142569784-e9694fe5-6ff0-4e8f-8281-6942fbdc7a44.png">
+
+- 💡 시민, 군사, 경찰 대상 테러의 증가
+
+</br>
+### 참고
+[최근 국외 뉴테러리즘의 사례분석과 국내 발생가능 유형에 대한 연구](https://www.koreascience.or.kr/article/JAKO201719063370032.pdf) ㄴ
