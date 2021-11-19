@@ -1,5 +1,3 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=75BDE0&height=300&section=header&text=EDA%20Project&fontSize=65)
-
 # oneday_project_2
 ## 프로젝트 소개
 ### 테러 특성 및 양상 분석
@@ -33,8 +31,11 @@ seaborn - countplot 활용 시각화
 - 💡 세계경제 위기로 인해 점차 테러 증가 추측
 - 2012: [이노센스 오브 무슬림] 반 이슬람 영화로 반미 시위 발발
 - 2013: 파키스탄 폭탄테러 발발, 정부 겨냥
-- 💡 국가 간 갈등 심화로 인한 테러 증가 추측
+- 💡 국가 간 갈등 심화로 인한 테러 증가 추측    
 
+
+#### terror_top DataFrame
+> 국가별 그룹화 후 전체 기간 테러 발생 횟수, 사망자, 부상자, 사상자(사망+부상자) 컬럼 추가 후 발생 횟수로 내림차순 해 상위 10개국 추출
 
 ### 2. 테러 발생 상위 10개국 파악
 matplotlib.pyplot - bar 활용 시각화
@@ -45,14 +46,36 @@ matplotlib.pyplot - bar 활용 시각화
 - 💡 중동, 남아시아, 남아메리카, 서유럽에서 테러가 많이 발생
 
 ### 3. 상위 10개국 사망자 및 부상자 수 파악
+pandas.DataFrame.plot / seaborn - barplot 활용 시각화
+
+<img width="884" alt="Screen Shot 2021-11-19 at 10 09 34 AM" src="https://user-images.githubusercontent.com/48639017/142524086-65169609-c78c-4b96-9cbe-8d6d8b774aff.png">   
+
+<img width="896" alt="Screen Shot 2021-11-19 at 10 11 48 AM" src="https://user-images.githubusercontent.com/48639017/142525462-e388da50-71af-4e94-82ae-8cfdb16a063b.png">
+
+- 전체적으로 테러 발생 횟수보다 사망자와 부상자 수가 높음
+- United Kingdom의 경우, 유일하게 사망자가 발생 횟수보다 낮음
+    - 💡 2007년 폭탄 테러 시도 실패 사례 등의 다수의 테러 실패 및 사전 검거
+- Iraq의 경우 테러 발생 횟수의 6배 수치에 달하는 부상자 발생
+    - 💡 Iraq에서 발생한 테러 중 쇼핑센터, 시장에서 폭탄 테러 사례로 한 번에 많은 사상자 수 발생
+  
+
+#### terror_country DataFrame
+> 중동&북아프리카, 남아시아, 남아메리카, 서유럽, 남동아시아, 동유럽, 북아메리카, 동아시아 지역별 공격 형태, 사상자 수
+
+### 4. 특정 8개 지역 특성 파악
+#### 지역별 테러 공격 형태 시각화
+
+<img width="812" alt="Screen Shot 2021-11-19 at 10 28 13 AM" src="https://user-images.githubusercontent.com/48639017/142537110-bf460a63-7320-4c3a-9e5a-ea61581dd4e9.png">
+
+![11](https://user-images.githubusercontent.com/48639017/142540391-ba7c35ef-e5ad-4b5c-b2fd-60e98b0f9910.png)
+
+- 폭발 테러가 가장 빈번
+- 대체로 두번째로 무장습격이 빈번
+- East Asia/North America는 Facility/Infrastructure Attack, Western Europe은 Assassination과 Facility/Infrastructure Attack이 두번째로 많음
+    - 💡 영국 정부 대상의 이슬람 테러 단체의 움직임
 
 
 
 
 
-
-
-
-
-![header](https://capsule-render.vercel.app/api?type=waving&color=75BDE0&height=200&section=footer&fontSize=72)
 
